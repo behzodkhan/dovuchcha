@@ -1,5 +1,5 @@
 import { Image, Container, Title, Text, Button, SimpleGrid } from '@mantine/core';
-import image from './image.svg';
+import image from './bg.gif';
 import classes from './NotFoundImage.module.css';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ export function NotFoundImage() {
   return (
     <Container className={classes.root}>
       <SimpleGrid spacing={{ base: 40, sm: 80 }} cols={{ base: 1, sm: 2 }}>
-        <Image src={image}  />
+        <Image src={image} h={400} />
         <div>
           <Title className={classes.title}>Nimadir xato...</Title>
           <Text c="dimmed" size="lg">
