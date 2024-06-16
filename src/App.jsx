@@ -6,6 +6,7 @@ import { HeaderMenu } from './components/Header';
 import { FooterSocial } from './components/Footer';
 import { EmailBanner } from './components/Jurnal';
 import { FaqWithImage } from './components/faq';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return <MantineProvider>
@@ -14,6 +15,7 @@ function App() {
     <FaqWithImage/>
     <EmailBanner/>
     <FooterSocial/>
+    <Analytics />
   </MantineProvider>;
 }
 
