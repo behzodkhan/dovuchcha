@@ -9,7 +9,7 @@ export function HeroBullets() {
       <div className={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
-            Qandaydir yemagan <br />  gap <span className={classes.highlight}>topish</span> kerak
+            Eng foydali <br />  ilm <span className={classes.highlight}>o'rganilgan va o'rgatilgan</span> ilm
           </Title>
           <Text c="dimmed" mt="md">
             O'zbek YouTube segmentida ilmiy-ommabop kontentni ko'paytirishni maqsad qilgan jamoamiz, bizga - o'zbek tiliga yordam berishga chaqiradi. Quyidagi sohalarda o'z hissangizni qo'shishingiz mumkin
