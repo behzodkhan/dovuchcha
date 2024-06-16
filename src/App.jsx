@@ -1,20 +1,19 @@
 import './App.css'
 import '@mantine/core/styles.css';
-import { HeroBullets } from './components/Hero';
 import { MantineProvider } from '@mantine/core';
-import { HeaderMenu } from './components/Header';
-import { FooterSocial } from './components/Footer';
-import { EmailBanner } from './components/Jurnal';
-import { FaqWithImage } from './components/faq';
 import { Analytics } from "@vercel/analytics/react"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import { Aloqa } from './components/Aloqa';
 
 function App() {
   return <MantineProvider>
-    <HeaderMenu/> 
-    <HeroBullets/>
-    <FaqWithImage/>
-    <EmailBanner/>
-    <FooterSocial/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path='/aloqa' element={<Aloqa/>} />
+      </Routes>
+    </BrowserRouter>
     <Analytics />
   </MantineProvider>;
 }

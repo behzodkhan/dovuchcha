@@ -11,6 +11,7 @@ import {
 import logo from '../../assets/logo.png'
 import { useDisclosure } from '@mantine/hooks';
 import classes from './HeaderMenu.module.css';
+import { Link } from 'react-router-dom';
 
 export function HeaderMenu() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
@@ -22,16 +23,19 @@ export function HeaderMenu() {
           <img src={logo} alt="logo" width='200px' />
 
           <Group h="100%" gap={0} visibleFrom="sm" style={{marginRight: "120px"}}>
-            <a href="#" className={classes.link}>
+            <Link to="/" className={classes.link}>
               Biz haqimizda
-            </a>
+            </Link>
 
-            <a href="#" className={classes.link}>
+            <Link to="/" className={classes.link}>
               Dovuchchalar
-            </a>
-            <a href="#" className={classes.link}>
+            </Link>
+            <Link to="/" className={classes.link}>
               Xayriya
-            </a>
+            </Link>
+            <Link to="/aloqa" className={classes.link}>
+              Aloqa
+            </Link>
           </Group>
 
           <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm" />
@@ -50,15 +54,18 @@ export function HeaderMenu() {
         <ScrollArea h={`calc(100vh - ${rem(80)})`} mx="-md">
           <Divider my="sm" />
 
-          <a href="#" className={classes.link}>
+          <Link to="/" className={classes.link}>
             Biz haqimizda
-          </a>
-          <a href="#" className={classes.link}>
+          </Link>
+          <Link to="/" className={classes.link}>
             Dovuchchalar
-          </a>
-          <a href="#" className={classes.link}>
+          </Link>
+          <Link to="/" className={classes.link}>
             Xayriya
-          </a>
+          </Link>
+          <Link to="/aloqa" className={classes.link}>
+            Aloqa
+          </Link>
 
           <Divider my="sm" />
 
