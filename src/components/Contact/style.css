@@ -1,0 +1,63 @@
+a{
+    color: #000;
+}
+.cardContact{
+    background-color: #fff;
+    border: 1px solid #7AC243;
+    border-radius: 7px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.infoCard{
+    width: 50%;
+    padding: 20px 40px;
+    background: rgba( 122, 194, 67, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.mapCard{
+    border-left: 1px solid #7AC243;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul li .reach{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+ul li .reach p, ul li .reach h4{
+    margin: 0;
+}
+.iconCard:first-child{
+    font-size: 42px;
+}
+.socialBlade{
+    margin: 40px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+    .infoCard{
+        width: 100%;
+    }
+    iframe{
+        display: none;
+    }
+    .mapCard{
+        display: none;
+    }
+}
