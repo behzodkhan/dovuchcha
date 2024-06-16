@@ -13,7 +13,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path='/aloqa' element={<Aloqa/>} />
-        <Route path='/*' element={<NotFoundImage/>} />
       </Routes>
     </BrowserRouter>
     <Analytics />
