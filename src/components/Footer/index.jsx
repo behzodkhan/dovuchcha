@@ -9,10 +9,10 @@ export function FooterSocial() {
       <Container className={classes.inner}>
         <img src={logo} alt="logo" width='200px' />
         <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="gray" variant="subtle" className={classes.actioniconf}>
             <a style={{color: 'gray'}} href="https://t.me/dovucca" target='_blank'><IconBrandTelegram style={{ width: rem(18), height: rem(18) }} stroke={1.5} /></a>
           </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="gray" variant="subtle" className={classes.actioniconf}>
             <a style={{color: 'gray'}} href='https://youtube.com/@dovuchcha' target='_blank'><IconBrandYoutube  style={{ width: rem(18), height: rem(18) }} stroke={1.5} /></a>
           </ActionIcon>
         </Group>

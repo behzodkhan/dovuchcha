@@ -24,3 +24,9 @@
       margin-top: var(--mantine-spacing-md);
     }
   }
+.actioniconf{
+  transition:0.5s;
+}
+.actioniconf:hover{
+  background: #e5f5d7;
+}
