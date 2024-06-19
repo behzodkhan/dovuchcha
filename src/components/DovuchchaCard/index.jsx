@@ -9,7 +9,6 @@ export function UserInfoAction({name, username, img, title}) {
         size={120}
         radius={120}
         mx="auto"
-        style={{cursor: "url(../../assets/pointercur.png), auto"}}
         className={classes.avatar}
       />
       <Text ta="center" fz="lg" fw={500} mt="md" className={classes.text}>

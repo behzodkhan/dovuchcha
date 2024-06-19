@@ -46,18 +46,19 @@
   .inputWrapper {
     width: 100%;
     flex: 1;
+    
   }
   
   .input {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-right: 0;
+    cursor: url(../../assets/beamcur.png),auto;
+    border-color: #7cc142;
   }
+
   
   .control {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-  }
-  .alertstyle{
-    margin-bottom: -25px;
   }

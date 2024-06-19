@@ -18,3 +18,9 @@
 .avatar{
     cursor:url(../../assets/pointercur.png), auto;
 }
+* span,a,img,button,svg{
+    cursor: url(../../assets/pointercur.png), auto;
+}
+* h1,h2,h3,h4,h5,h5,p,b,i,strong,em,mark,small,del,ins,sub,sup,input{
+    cursor: url(../../assets/beamcur.png),auto;
+}

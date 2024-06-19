@@ -21,12 +21,12 @@ export function FaqWithImage() {
             <Accordion chevronPosition="right" defaultValue="reset-password" variant="separated">
               <Accordion.Item className={classes.item} value="reset-password">
                 <Accordion.Control>Men ham ovoz bera olamanmi?</Accordion.Control>
-                <Accordion.Panel>Ha. Agar bizga ovoz berishda, tarjima qilishda yoki shorts/reels yasashda yordam berishni istasangiz, bizga murojaat qiling. Biz bundan xursand bo'lamiz!</Accordion.Panel>
+                <Accordion.Panel className={classes.faqtext}>Ha. Agar bizga ovoz berishda, tarjima qilishda yoki shorts/reels yasashda yordam berishni istasangiz, bizga murojaat qiling. Biz bundan xursand bo'lamiz!</Accordion.Panel>
               </Accordion.Item>
 
               <Accordion.Item className={classes.item} value="another-account">
                 <Accordion.Control>Sizga qanday murojaat qila olaman?</Accordion.Control>
-                <Accordion.Panel>dovuchcha@dovuchcha.uz emaili orqali murojaat qilishingiz mumkin. 24/7 javob qaytarishga tayyormiz. Qolaversa, fikrlaringizni YouTube va telegram kanali kommentariyalarida qoldirishingiz mumkin. Biz hammasini o'qishga harakat qilamiz.</Accordion.Panel>
+                <Accordion.Panel> <a href="mailto:dovuchcha@dovuchcha.uz">dovuchcha@dovuchcha.uz</a> emaili orqali murojaat qilishingiz mumkin. 24/7 javob qaytarishga tayyormiz. Qolaversa, fikrlaringizni YouTube va telegram kanali kommentariyalarida qoldirishingiz mumkin. Biz hammasini o'qishga harakat qilamiz.</Accordion.Panel>
               </Accordion.Item>
 
               <Accordion.Item className={classes.item} value="newsletter">
@@ -38,7 +38,7 @@ export function FaqWithImage() {
                 <Accordion.Control>
                   O'zlaring ham video chiqarasizlarmi?
                 </Accordion.Control>
-                <Accordion.Panel>Biz keyingi o'quv yiliçdan boshlab prezident maktabida ilmiy-ommabop videolarni o'zimiz olishni niyat qilganmiz. Bu juda ham ko'p kuch talab etilgani uchun, bizga qiyin bo'ladi. Ammo, siz kabi tomoshabinlar bizga yordam beradi degan umiddamiz.</Accordion.Panel>
+                <Accordion.Panel>Biz keyingi o'quv yilidan boshlab prezident maktabida ilmiy-ommabop videolarni o'zimiz olishni niyat qilganmiz. Bu juda ham ko'p kuch talab etilgani uchun, bizga qiyin bo'ladi. Ammo, siz kabi tomoshabinlar bizga yordam beradi degan umiddamiz.</Accordion.Panel>
               </Accordion.Item>
             </Accordion>
           </Grid.Col>

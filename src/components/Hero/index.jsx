@@ -25,7 +25,7 @@ export function HeroBullets() {
               </ThemeIcon>
             }
           >
-            <List.Item>
+            <List.Item >
               <b>Ovoz berish</b> – biz sizdagi kabi ovozni hali eshitmaganmiz va sizni anchadan buyon kutyapmiz
             </List.Item>
             <List.Item>

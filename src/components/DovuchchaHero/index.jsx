@@ -4,7 +4,7 @@ import { UserInfoAction } from '../DovuchchaCard';
 import behzod from '../../assets/behzod.png'
 // import ismatulloh from '../../assets/ismatulloh.png'
 // import shaxriyor from '../../assets/shaxriyor.png'
-// import jahongir from '../../assets/jahongir.png'
+import jahongir from '../../assets/jahongir.png'
 // import doston from '../../assets/doston.png'
 // import maruf from '../../assets/maruf.png'
 // import suxrob from '../../assets/suxrob.png'
@@ -15,7 +15,7 @@ export function HeroTitle() {
       <Container size='lg' className={classes.inner}>
         <h1 className={classes.title}>
           Bizning {' '}
-          <Text component="span" variant="gradient" gradient={{ from: 'blue', to: 'cyan' }} inherit>
+          <Text component="span" variant="gradient" gradient={{ from: '#7cc142', to: '#dbe020' }} className={classes.dovuchchalarimiz}inherit>
             Dovuchchalarimiz
           </Text>{' '}
           bilan tanishing
@@ -28,12 +28,12 @@ export function HeroTitle() {
         <br />
         <Group>
           <UserInfoAction name="Behzod Musurmonqulov" username="https://t.me/behzodmusurmonqulov" img={behzod} title="Loyiha asoschisi • Tarjimon • Dasturchi"/>
-          <UserInfoAction name="Ismatulloh Bakhtiyorov" username="https://t.me/baxt1y0rov"title="Dizayner • Dasturchi • Animator"/>
-          <UserInfoAction name="Shaxriyor Do'ngboyev" username="https://t.me/+998777074864" title="Dublyaj ustasi"/>
-          <UserInfoAction name="Jahongir Orziqulov" username="https://t.me/astra_empire"title="Tarjimon • Adminstrator"/>
-          <UserInfoAction name="Doston Ergashev" username="https://t.me/Ergashev_pm" title="Dublyaj ustasi"/>
-          <UserInfoAction name="Ma'rufjon Abdug'aniyev" username="https://t.me/marufjon9711"title="Maslahatchi"/>
-          <UserInfoAction name="Suxrob Abdusattorov" username="https://t.me/marufjon9711" title="Montaj ustasi"/>
+          <UserInfoAction name="Ismatulloh Bakhtiyorov" username="https://t.me/baxt1y0rov"  title="Dizayner • Dasturchi • Animator"/>
+          <UserInfoAction name="Shaxriyor Do'ngboyev" username="https://t.me/+998777074864" title="Dublyaj ustasi" />
+          <UserInfoAction name="Jahongir Orziqulov" username="https://t.me/astra_empire" img={jahongir} title="Tarjimon • Adminstrator" />
+          <UserInfoAction name="Doston Ergashev" username="https://t.me/Ergashev_pm" title="Dublyaj ustasi" />
+          <UserInfoAction name="Ma'rufjon Abdug'aniyev" username="https://t.me/marufjon9711"title="Maslahatchi" />
+          <UserInfoAction name="Suxrob Abdusattorov" username="https://t.me/marufjon9711" title="Montaj ustasi" />
         </Group>
         
 
