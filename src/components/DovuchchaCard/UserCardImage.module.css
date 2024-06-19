@@ -1,6 +1,6 @@
 .card{
     cursor:url(../../assets/pointercur.png), auto;
-    width: 350px;
+    width: 355px;
     height: 300px;
     transition: 0.5s;
 }
@@ -23,4 +23,15 @@
 }
 * h1,h2,h3,h4,h5,h5,p,b,i,strong,em,mark,small,del,ins,sub,sup,input{
     cursor: url(../../assets/beamcur.png),auto;
+}
+.card:hover button{
+    border-color:#7cc142;
+}
+.card button{
+    transition: 0.5s;
+}
+.card button:hover{
+    background: #7cc142;
+    color:#fff;
+    box-shadow: 0px 0px 31px -10px #7cc142  ;
 }
