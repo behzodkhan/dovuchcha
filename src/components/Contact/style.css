@@ -61,3 +61,6 @@ ul li .reach p, ul li .reach h4{
         display: none;
     }
 }
+::selection{
+    background: #AED98B;
+}

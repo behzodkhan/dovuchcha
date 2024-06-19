@@ -11,19 +11,19 @@ export function UserInfoAction({name, username, img, title}) {
         mx="auto"
         className={classes.avatar}
       />
-      <Text ta="center" fz="lg" fw={500} mt="md" className={classes.text}>
+      <Text ta="center" fz="lg" fw={500} mt="md" className={classes.cardtext}>
         {name}
       </Text>
-      <Text ta="center" c="dimmed" fz="sm">
+      <Text ta="center" c="dimmed" fz="sm" className={classes.cardtitle} >
         {title} 
       </Text>
-      <form action={username} target='_blank' >
+      <form action={username} target='_blank'>
           <Button type='submit' variant="default" fullWidth mt="md" >
             Xabar yuborish
           </Button>
       </form>
     </Paper>
-    
+
   );
   
 }

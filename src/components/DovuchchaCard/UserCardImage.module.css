@@ -15,9 +15,6 @@
 *{
     cursor:url(../../assets/arrowcur.png), auto;
 }
-.avatar{
-    cursor:url(../../assets/pointercur.png), auto;
-}
 * span,a,img,button,svg{
     cursor: url(../../assets/pointercur.png), auto;
 }
@@ -34,4 +31,26 @@
     background: #7cc142;
     color:#fff;
     box-shadow: 0px 0px 31px -10px #7cc142  ;
+}
+.avatar{
+    transition: 0.5s;
+    cursor:url(../../assets/pointercur.png), auto;
+}
+.avatar:hover{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 31px -10px #7cc142  ;
+}
+#cardtitle{
+    transition: 0.5s;
+}
+.cardbutton{
+    transition: 0s;
+}
+.avatar:hover ~ form{
+    display: none;
+    transition: 0.5s;
+}
+form{
+    transition: 0.5s;
 }
