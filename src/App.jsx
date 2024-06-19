@@ -6,12 +6,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Aloqa from './pages/Aloqa';
 import { NotFoundImage } from './pages/InvalidPage';
+import Dovuchchalar from './pages/Dovuchchalar';
 
 function App() {
   return <MantineProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path='/dovuchchalar' element={<Dovuchchalar/>} />
         <Route path='/aloqa' element={<Aloqa/>} />
         <Route path='/*' element={<NotFoundImage/>} />
       </Routes>
