@@ -26,7 +26,7 @@ export function HeroTitle() {
           Dovuchchalar deb ataymiz. Quyida ular bilan tanishing 👇️️️️️️
         </Text>
         <br />
-        <Group>
+        <Group className={classes.cardsD}>
           <UserInfoAction name="Behzod Musurmonqulov" username="https://t.me/behzodmusurmonqulov" img={behzod} title="Loyiha asoschisi • Tarjimon • Dasturchi"/>
           <UserInfoAction name="Ismatulloh Bakhtiyorov" username="https://t.me/baxt1y0rov"  img={ismatulloh} title="Dizayner • Dasturchi • Animator"/>
           <UserInfoAction name="Shaxriyor Do'ngboyev" username="https://t.me/+998777074864" img={shaxriyor}title="Dublyaj ustasi" />

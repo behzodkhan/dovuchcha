@@ -58,7 +58,10 @@
       margin-top: var(--mantine-spacing-xl);
     }
   }
-  
+  .cardsD{
+    display: flex;
+    justify-content: center;
+  }
   .control {
     height: rem(54px);
     padding-left: rem(38px);

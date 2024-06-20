@@ -51,6 +51,7 @@
 .avatar:hover ~ form button{
     border-color:#fff;
     height: 0px;
+    transform: translateY(-8px);
 }
 form{
     transition: 0.5s;
