@@ -48,7 +48,7 @@
     transition: 0s;
 }
 .avatar:hover ~ form button{
-    width: 0px;
+    
     height: 0px;
 }
 form{
