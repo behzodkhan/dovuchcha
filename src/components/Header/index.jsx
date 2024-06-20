@@ -57,7 +57,7 @@ export function HeaderMenu() {
           <Link to="/" className={classes.link}>
             Biz haqimizda
           </Link>
-          <Link to="/" className={classes.link}>
+          <Link to="/dovuchchalar" className={classes.link}>
             Dovuchchalar
           </Link>
           <Link to="/" className={classes.link}>

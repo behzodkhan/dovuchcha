@@ -18,7 +18,7 @@ export function UserInfoAction({name, username, img, title}) {
         {title} 
       </Text>
       <form action={username} target='_blank'>
-          <Button type='submit' variant="default" fullWidth mt="md" >
+          <Button type='submit' variant="default" fullWidth mt="md" style={{transition: "all 0.2s ease-in-out"}} >
             Xabar yuborish
           </Button>
       </form>

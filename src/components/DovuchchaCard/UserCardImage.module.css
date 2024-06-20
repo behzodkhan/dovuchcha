@@ -47,9 +47,9 @@
 .cardbutton{
     transition: 0s;
 }
-.avatar:hover ~ form{
-    display: none;
-    transition: 0.5s;
+.avatar:hover ~ form button{
+    width: 0px;
+    height: 0px;
 }
 form{
     transition: 0.5s;
