@@ -31,7 +31,7 @@ export function HeaderMenu() {
               Dovuchchalar
             </Link>
             <Link to="/" className={classes.link}>
-              Xayriya
+              Donat
             </Link>
             <Link to="/aloqa" className={classes.link}>
               Aloqa
@@ -61,7 +61,7 @@ export function HeaderMenu() {
             Dovuchchalar
           </Link>
           <Link to="/" className={classes.link}>
-            Xayriya
+            Donat
           </Link>
           <Link to="/aloqa" className={classes.link}>
             Aloqa
