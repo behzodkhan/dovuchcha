@@ -1,7 +1,6 @@
 import {
   Group,
   Divider,
-  Center,
   Box,
   Burger,
   Drawer,
@@ -30,9 +29,9 @@ export function HeaderMenu() {
             <Link to="/dovuchchalar" className={classes.link}>
               Dovuchchalar
             </Link>
-            <Link to="/" className={classes.link}>
+            <a href="https://tirikchilik.uz/dovuchcha" className={classes.link} target='_blank'>
               Donat
-            </Link>
+            </a>
             <Link to="/aloqa" className={classes.link}>
               Aloqa
             </Link>
