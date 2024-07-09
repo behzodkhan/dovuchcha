@@ -28,10 +28,9 @@
     transition: 0.5s;
 }
 .card button:hover{
-    background: #7cc142;
+    background: blue;
     color:#fff;
     box-shadow: 0px 0px 31px -10px #7cc142  ;
-    width: 2000px;
 }
 .avatar{
     transition: 0.5s;
