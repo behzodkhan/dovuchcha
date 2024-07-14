@@ -6,7 +6,8 @@ import ismatulloh from '../../assets/ismatulloh.png'
 import shaxriyor from '../../assets/shaxriyor.png'
 import jahongir from '../../assets/jahongir.png'
 import doston from '../../assets/doston.png'
-// import maruf from '../../assets/maruf.png'
+import maruf from '../../assets/maruf.png'
+import mokhinur from '../../assets/mokhinur.png'
 // import suxrob from '../../assets/suxrob.png'
 
 export function HeroTitle() {
@@ -32,8 +33,9 @@ export function HeroTitle() {
           <UserInfoAction name="Shaxriyor Do'ngboyev" username="https://t.me/+998777074864" img={shaxriyor}title="Dublyaj ustasi" />
           <UserInfoAction name="Jahongir Orziqulov" username="https://t.me/astra_empire" img={jahongir} title="Tarjimon • Adminstrator" />
           <UserInfoAction name="Doston Ergashev" username="https://t.me/Ergashev_pm" img={doston} title="Dublyaj ustasi" />
-          <UserInfoAction name="Ma'rufjon Abdug'aniyev" username="https://t.me/marufjon9711"title="Maslahatchi" />
+          <UserInfoAction name="Ma'rufjon Abdug'aniyev" username="https://t.me/marufjon9711"img={maruf} title="Maslahatchi" />
           <UserInfoAction name="Suxrob Abdusattorov" username="https://t.me/marufjon9711" title="Shorts maker" />
+          <UserInfoAction name="Mokhinur Suyunova" username="https://t.me/mokhinur_s01" img={mokhinur} title="Dublyaj ustasi" />
         </Group>
         
 
