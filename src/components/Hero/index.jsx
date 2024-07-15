@@ -38,7 +38,7 @@ export function HeroBullets() {
           </List>
 
           <Group mt={30}>
-            <a href="https://youtube.com/@dovuchcha">
+            <a href="https://youtube.com/@dovuchcha" target='_blank'>
               <Button style={{background: '#7CC142'}} radius="xl" size="md" className={classes.control2}>
                 Tomosha qilish
               </Button>
