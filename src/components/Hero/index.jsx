@@ -2,6 +2,7 @@ import { Image, Container, Title, Button, Group, Text, List, ThemeIcon, rem } fr
 import { IconCheck } from '@tabler/icons-react';
 import image from './image.svg';
 import classes from './HeroBullets.module.css';
+import { Link } from 'react-router-dom';
 
 export function HeroBullets() {
   return (
@@ -37,12 +38,16 @@ export function HeroBullets() {
           </List>
 
           <Group mt={30}>
-            <Button style={{background: '#7CC142'}} radius="xl" size="md" className={classes.control2}>
-              Tomosha qilish
-            </Button>
-            <Button variant="default" radius="xl" size="md" className={classes.control}>
-              Aloqaga chiqish
-            </Button>
+            <a href="https://youtube.com/@dovuchcha">
+              <Button style={{background: '#7CC142'}} radius="xl" size="md" className={classes.control2}>
+                Tomosha qilish
+              </Button>
+            </a>
+            <Link to='/aloqa'>
+              <Button variant="default" radius="xl" size="md" className={classes.control}>
+                Aloqaga chiqish
+              </Button>
+            </Link>
           </Group>
         </div>
         <Image src={image} className={classes.image} />
