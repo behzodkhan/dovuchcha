@@ -8,6 +8,7 @@ import jahongir from '../../assets/jahongir.png'
 import doston from '../../assets/doston.png'
 import maruf from '../../assets/maruf.png'
 import mokhinur from '../../assets/mokhinur.png'
+import samandar from '../../assets/samandar.png'
 // import suxrob from '../../assets/suxrob.png'
 
 export function HeroTitle() {
@@ -36,6 +37,7 @@ export function HeroTitle() {
           <UserInfoAction name="Ma'rufjon Abdug'aniyev" username="https://t.me/marufjon9711"img={maruf} title="Maslahatchi" />
           <UserInfoAction name="Suxrob Abdusattorov" username="https://t.me/marufjon9711" title="Shorts maker" />
           <UserInfoAction name="Mokhinur Suyunova" username="https://t.me/mokhinur_s01" img={mokhinur} title="Dublyaj ustasi" />
+          <UserInfoAction name="Samandar Muminov" username="https://t.me/Sabedor1a07" img={samandar} title="Dublyaj ustasi" />
         </Group>
         
 
