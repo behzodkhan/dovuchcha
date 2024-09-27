@@ -31,7 +31,7 @@ export function HeroTitle() {
         <Group className={classes.cardsD}>
           <UserInfoAction name="Behzod Musurmonqulov" username="https://t.me/behzodmusurmonqulov" img={behzod} title="Loyiha asoschisi • Tarjimon • Dasturchi"/>
           <UserInfoAction name="Ismatulloh Bakhtiyorov" username="https://t.me/baxt1y0rov"  img={ismatulloh} title="Dizayner • Dasturchi • Animator"/>
-          <UserInfoAction name="Shaxriyor Do'ngboyev" username="https://t.me/+998777074864" img={shaxriyor}title="Dublyaj ustasi" />
+          <UserInfoAction name="Shaxriyor Do'ngboyev" username="https://t.me/+998777074864" img={shaxriyor}title="Dublyaj ustasi • Loyiha hammuassisi" />
           <UserInfoAction name="Jahongir Orziqulov" username="https://t.me/astra_empire" img={jahongir} title="Tarjimon • Adminstrator" />
           <UserInfoAction name="Doston Ergashev" username="https://t.me/Ergashev_pm" img={doston} title="Dublyaj ustasi" />
           <UserInfoAction name="Ma'rufjon Abdug'aniyev" username="https://t.me/marufjon9711"img={maruf} title="Maslahatchi" />
