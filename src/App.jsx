@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Aloqa from './pages/Aloqa';
 import { NotFoundImage } from './pages/InvalidPage';
 import Dovuchchalar from './pages/Dovuchchalar';
+import Dovuchcha from './pages/Dovuchcha';
 
 function App() {
   return <MantineProvider>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path='/dovuchchalar' element={<Dovuchchalar/>} />
         <Route path='/aloqa' element={<Aloqa/>} />
+        <Route path='/dovuchchalar/behzod' element={<Dovuchcha/>} />
         <Route path='/*' element={<NotFoundImage/>} />
       </Routes>
     </BrowserRouter>
