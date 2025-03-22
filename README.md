@@ -31,7 +31,7 @@ We’re just getting started! If you’re passionate about science, storytelling
 
 ## 📬 Contact
 
-Reach out via the website or drop a message at [info@dovuchcha.uz](mailto:info@dovuchcha.uz)
+Reach out via the website or drop a message at [contact@dovuchcha.uz](mailto:contact@dovuchcha.uz)
 
 ---
 
